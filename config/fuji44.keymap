@@ -63,10 +63,10 @@
 
         Right_keys {
             bindings = <
-&kp RIGHT_BRACKET  &kp P          &kp O          &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans  &trans
-&kp SQT            &kp SEMICOLON  &kp L          &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans  &trans
-&kp EXCL           &kp QUESTION   &kp PERIOD     &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
-                                  &kp LS(SLASH)  &kp DOT    &trans  &trans    &trans  &trans  &trans  &trans
+&kp RIGHT_BRACKET  &kp P             &kp O          &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans  &trans
+&kp SQT            &kp SEMICOLON     &kp L          &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans  &trans
+&kp EXCL           &kp LS(NUMBER_2)  &kp PERIOD     &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
+                                     &kp LS(SLASH)  &kp DOT    &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -81,10 +81,10 @@
 
         sys {
             bindings = <
-&bootloader     &trans      &kp STAR  &kp HASH      &kp PERCENT   &kp AT_SIGN     &trans        &trans        &trans        &trans  &trans      &bootloader
-&bt BT_CLR_ALL  &bt BT_CLR  &trans    &trans        &bt BT_PRV    &bt BT_NXT      &bt BT_PRV    &bt BT_NXT    &trans        &trans  &bt BT_CLR  &bt BT_CLR_ALL
-&sys_reset      &trans      &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans      &sys_reset
-                            &trans    &trans        &trans        &trans          &trans        &trans        &trans        &trans
+&bootloader     &trans      &kp STAR  &kp HASH      &kp PERCENT   &kp LA(NUMBER_2)    &trans        &trans        &trans        &trans  &trans      &bootloader
+&bt BT_CLR_ALL  &bt BT_CLR  &trans    &trans        &bt BT_PRV    &bt BT_NXT          &bt BT_PRV    &bt BT_NXT    &trans        &trans  &bt BT_CLR  &bt BT_CLR_ALL
+&sys_reset      &trans      &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans      &sys_reset
+                            &trans    &trans        &trans        &trans              &trans        &trans        &trans        &trans
             >;
         };
     };
