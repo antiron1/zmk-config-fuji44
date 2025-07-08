@@ -55,10 +55,10 @@
 
         num {
             bindings = <
-&kp LEFT_PARENTHESIS   &kp PLUS                  &kp N7            &mt STAR N8          &kp N9         &kp MINUS     &trans  &trans          &kp UP_ARROW    &trans     &trans  &trans
-&kp F24                &kp EQUAL                 &kp NUMBER_4      &mt PERCENT N5       &kp NUMBER_6   &kp LA(N6)    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp RIGHT_PARENTHESIS  &kp LA(NON_US_BACKSLASH)  &kp NUMBER_1      &mt LA(NUMBER_2) N2  &mt LA(N3) N3  &kp LA(N4)    &trans  &trans          &trans          &trans     &trans  &trans
-                                                 &mt F21 NUMBER_0  &kp F22              &trans         &trans        &trans  &trans          &trans          &trans
+&kp LEFT_PARENTHESIS   &kp PLUS                  &mt LA(NUMBER_7) NUMBER_7  &mt STAR N8          &mt LA(NUMBER_9) NUMBER_9  &mt UNDERSCORE MINUS    &trans  &trans          &kp UP_ARROW    &trans     &trans  &trans
+&kp F24                &kp EQUAL                 &mt LA(NUMBER_4) NUMBER_4  &mt PERCENT N5       &mt LA(NUMBER_6) NUMBER_6  &kp LA(NUMBER_5)        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&kp RIGHT_PARENTHESIS  &kp LA(NON_US_BACKSLASH)  &mt LA(NUMBER_1) NUMBER_1  &mt LA(NUMBER_2) N2  &mt LA(N3) N3              &kp LA(NUMBER_8)        &trans  &trans          &trans          &trans     &trans  &trans
+                                                 &mt F21 NUMBER_0           &kp F22              &trans                     &trans                  &trans  &trans          &trans          &trans
             >;
         };
 
