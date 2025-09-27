@@ -46,19 +46,19 @@
 
         def {
             bindings = <
-&lt 5 LEFT_BRACKET  &kp Q        &kp W      &kp E       &kp R      &mt LC(N5) T          &mt LC(N5) Y        &kp U             &kp I        &kp O           &kp P              &lt 5 RIGHT_BRACKET
-&kp GRAVE           &mt LG(D) A  &mt END S  &mt HOME D  &mt INS F  &mt LC(NUMBER_4) G    &mt LC(NUMBER_4) H  &mt LEFT_SHIFT J  &mt LCTRL K  &mt LEFT_ALT L  &mt LEFT_GUI SEMI  &kp SQT
-&mt CAPS ESCAPE     &kp Z        &kp X      &kp C       &kp V      &kp B                 &kp N               &kp M             &kp COMMA    &kp PERIOD      &kp F23            &kp EXCLAMATION
-                                 &lt 4 F21  &lt 3 F22   &mo 2      &lt 1 SPACE           &kp ENTER           &kp BACKSPACE     &kp DELETE   &kp TAB
+&lt 5 LEFT_BRACKET  &kp Q  &kp W      &kp E      &kp R  &mt LC(N5) T          &mt LC(N5) Y        &kp U             &kp I        &kp O           &kp P              &lt 5 RIGHT_BRACKET
+&mt LG(D) GRAVE     &kp A  &kp S      &kp D      &kp F  &mt LC(NUMBER_4) G    &mt LC(NUMBER_4) H  &mt LEFT_SHIFT J  &mt LCTRL K  &mt LEFT_ALT L  &mt LEFT_GUI SEMI  &kp SQT
+&mt CAPS ESCAPE     &kp Z  &kp X      &kp C      &kp V  &mt LC(NUMBER_6) B    &kp N               &kp M             &kp COMMA    &kp PERIOD      &kp F23            &kp EXCLAMATION
+                           &lt 4 F21  &lt 3 F22  &mo 2  &lt 1 SPACE           &kp ENTER           &kp BACKSPACE     &kp DELETE   &kp TAB
             >;
         };
 
         num {
             bindings = <
-&kp LEFT_PARENTHESIS   &kp PLUS                  &mt LA(NUMBER_7) NUMBER_7  &mt STAR N8          &mt LA(NUMBER_9) NUMBER_9  &mt UNDERSCORE MINUS    &trans  &trans          &kp UP_ARROW    &trans     &trans  &trans
-&kp F24                &kp EQUAL                 &mt LA(NUMBER_4) NUMBER_4  &mt PERCENT N5       &mt LA(NUMBER_6) NUMBER_6  &kp LA(NUMBER_5)        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp RIGHT_PARENTHESIS  &kp LA(NON_US_BACKSLASH)  &mt LA(NUMBER_1) NUMBER_1  &mt LA(NUMBER_2) N2  &mt LA(N3) N3              &kp LA(NUMBER_8)        &trans  &trans          &trans          &trans     &trans  &trans
-                                                 &mt F21 NUMBER_0           &kp F22              &trans                     &trans                  &trans  &trans          &trans          &trans
+&kp LEFT_PARENTHESIS   &kp PLUS                  &mt LA(NUMBER_7) NUMBER_7  &mt STAR NUMBER_8          &mt LA(NUMBER_9) NUMBER_9  &mt UNDERSCORE MINUS    &trans  &trans          &kp UP_ARROW    &trans     &trans  &trans
+&kp F24                &kp EQUAL                 &mt LA(NUMBER_4) NUMBER_4  &mt PERCENT NUMBER_5       &mt LA(NUMBER_6) NUMBER_6  &kp LA(NUMBER_5)        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&kp RIGHT_PARENTHESIS  &kp LA(NON_US_BACKSLASH)  &mt LA(NUMBER_1) NUMBER_1  &mt LA(NUMBER_2) NUMBER_2  &mt LA(N3) NUMBER_3        &kp LA(NUMBER_8)        &trans  &trans          &trans          &trans     &trans  &trans
+                                                 &mt F21 NUMBER_0           &kp F22                    &trans                     &trans                  &trans  &trans          &trans          &trans
             >;
         };
 
