@@ -46,19 +46,19 @@
 
         def {
             bindings = <
-&lt 5 LEFT_BRACKET  &kp Q  &kp W      &kp E      &kp R  &mt LG(KP_NUMBER_5) T    &mt LC(N5) Y        &kp U             &kp I        &kp O           &kp P              &lt 5 RIGHT_BRACKET
-&mt LG(D) GRAVE     &kp A  &kp S      &kp D      &kp F  &mt LG(KP_NUMBER_4) G    &mt LC(NUMBER_4) H  &mt LEFT_SHIFT J  &mt LCTRL K  &mt LEFT_ALT L  &mt LEFT_GUI SEMI  &kp SQT
-&mt CAPS ESCAPE     &kp Z  &kp X      &kp C      &kp V  &mt LG(KP_NUMBER_6) B    &kp N               &kp M             &kp COMMA    &kp PERIOD      &kp F23            &kp EXCLAMATION
+&lt 5 LEFT_BRACKET  &kp Q  &kp W      &kp E      &kp R  &mt LG(KP_NUMBER_9) T    &mt LC(N5) Y        &kp U             &kp I        &kp O           &kp P              &lt 5 RIGHT_BRACKET
+&mt LG(D) GRAVE     &kp A  &kp S      &kp D      &kp F  &mt LG(KP_NUMBER_6) G    &mt LC(NUMBER_4) H  &mt LEFT_SHIFT J  &mt LCTRL K  &mt LEFT_ALT L  &mt LEFT_GUI SEMI  &kp SQT
+&mt CAPS ESCAPE     &kp Z  &kp X      &kp C      &kp V  &mt LG(KP_N0) B          &kp N               &kp M             &kp COMMA    &kp PERIOD      &kp F12            &kp EXCLAMATION
                            &lt 4 F17  &lt 3 F18  &mo 2  &lt 1 SPACE              &kp ENTER           &kp BACKSPACE     &kp DELETE   &kp TAB
             >;
         };
 
         num {
             bindings = <
-&kp F6   &kp PLUS   &mt LG(NUMBER_7) NUMBER_7  &mt STAR NUMBER_8          &mt LG(NUMBER_9) NUMBER_9  &mt UNDERSCORE MINUS    &trans  &trans          &kp UP_ARROW    &trans     &trans  &trans
-&kp F21  &kp EQUAL  &mt LG(NUMBER_4) NUMBER_4  &mt PERCENT NUMBER_5       &mt LG(NUMBER_6) NUMBER_6  &kp F19                 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp F7   &kp F22    &mt LG(NUMBER_1) NUMBER_1  &mt LG(NUMBER_2) NUMBER_2  &mt LG(N3) NUMBER_3        &kp F20                 &trans  &trans          &trans          &trans     &trans  &trans
-                    &mt F17 NUMBER_0           &kp F18                    &kp F24                    &trans                  &trans  &trans          &trans          &trans
+&kp F21  &kp PLUS   &mt LG(KP_NUMBER_7) NUMBER_7  &mt STAR NUMBER_8             &mt LG(KP_NUMBER_9) NUMBER_9  &mt UNDERSCORE MINUS    &trans  &trans          &kp UP_ARROW    &trans     &trans  &trans
+&kp F23  &kp EQUAL  &mt LG(KP_NUMBER_4) NUMBER_4  &mt PERCENT NUMBER_5          &mt LG(KP_NUMBER_6) NUMBER_6  &kp F19                 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&kp F22  &kp F24    &mt LG(KP_NUMBER_1) NUMBER_1  &mt LG(KP_NUMBER_2) NUMBER_2  &mt LG(KP_NUMBER_3) NUMBER_3  &kp F20                 &trans  &trans          &trans          &trans     &trans  &trans
+                    &mt F17 NUMBER_0              &kp F18                       &trans                        &trans                  &trans  &trans          &trans          &trans
             >;
         };
 
@@ -66,23 +66,23 @@
             bindings = <
 &kp RIGHT_BRACKET  &kp P          &kp O       &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans  &trans
 &kp SQT            &kp SEMICOLON  &kp L       &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans  &trans
-&kp EXCL           &kp F23        &kp PERIOD  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
+&kp EXCL           &kp F12        &kp PERIOD  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
                                   &kp F17     &kp F18    &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
 
         multi {
             bindings = <
-&kp LG(LEFT)  &kp LG(Q)  &kp LG(RIGHT)        &kp LG(E)            &kp LG(R)  &kp LG(T)    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LG(UP)    &kp LG(I)  &kp LG(S)            &kp LG(KP_NUMBER_3)  &kp LG(F)  &kp LG(L)    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LG(DOWN)  &kp LG(Z)  &kp LG(KP_NUMBER_1)  &kp LG(C)            &kp LG(V)  &kp LG(B)    &trans  &trans  &trans  &trans  &trans  &trans
-                         &kp TAB              &trans               &kp PG_UP  &kp PG_DN    &trans  &trans  &trans  &trans
+&kp LG(S)  &kp LG(Q)  &kp LG(W)            &kp HOME             &kp END    &kp F11            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(A)  &kp F6     &kp F7               &kp LG(KP_NUMBER_2)  &kp F9     &kp F10            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(Z)  &kp F5     &kp LG(KP_NUMBER_1)  &kp PG_UP            &kp PG_DN  &kp PAUSE_BREAK    &trans  &trans  &trans  &trans  &trans  &trans
+                      &kp TAB              &trans               &kp PG_UP  &kp PG_DN          &trans  &trans  &trans  &trans
             >;
         };
 
         func {
             bindings = <
-&kp F1              &kp F2              &kp F3  &kp F4   &kp F5   &kp F6       &trans  &trans          &trans     &trans        &trans        &trans
+&trans              &trans              &trans  &trans   &kp F5   &kp F6       &trans  &trans          &trans     &trans        &trans        &trans
 &kp F7              &kp F8              &kp F9  &kp F10  &kp F11  &kp F12      &trans  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &trans
 &kp LC(LS(ESCAPE))  &kp LC(LA(DELETE))  &trans  &trans   &trans   &kp LG(L)    &trans  &trans          &trans     &trans        &trans        &trans
                                         &trans  &trans   &trans   &trans       &trans  &trans          &trans     &trans
