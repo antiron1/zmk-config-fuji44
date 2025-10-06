@@ -73,10 +73,10 @@
 
         multi {
             bindings = <
-&kp LG(S)  &kp LG(Q)  &kp LG(W)            &kp HOME             &kp END    &kp F11            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LG(A)  &kp F6     &kp F7               &kp LG(KP_NUMBER_2)  &kp F9     &kp F10            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LG(Z)  &kp F5     &kp LG(KP_NUMBER_1)  &kp PG_UP            &kp PG_DN  &kp PAUSE_BREAK    &trans  &trans  &trans  &trans  &trans  &trans
-                      &kp TAB              &trans               &kp PG_UP  &kp PG_DN          &trans  &trans  &trans  &trans
+&kp LG(S)  &kp LG(Q)  &kp LG(W)         &kp HOME          &kp END    &kp F11            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(A)  &kp F6     &kp F7            &kp LG(NUMBER_2)  &kp F9     &kp F10            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(Z)  &kp F5     &kp LG(NUMBER_1)  &kp PG_UP         &kp PG_DN  &kp PAUSE_BREAK    &trans  &trans  &trans  &trans  &trans  &trans
+                      &kp TAB           &trans            &kp PG_UP  &kp PG_DN          &trans  &trans  &trans  &trans
             >;
         };
 
