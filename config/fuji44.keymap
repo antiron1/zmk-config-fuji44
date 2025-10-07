@@ -73,7 +73,7 @@
 
         multi {
             bindings = <
-&kp LG(S)  &kp LG(W)   &trans            &kp LG(F3)        &kp LG(F4)     &kp LG(F7)       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(S)  &kp LG(W)   &trans            &kp LG(F12)       &kp LG(F4)     &kp LG(F7)       &trans  &trans  &trans  &trans  &trans  &trans
 &kp LG(A)  &kp LG(F2)  &kp LG(F5)        &kp LG(NUMBER_2)  &kp LG(F6)     &kp LG(F8)       &trans  &trans  &trans  &trans  &trans  &trans
 &kp LG(Z)  &kp LG(F1)  &kp LG(NUMBER_1)  &kp LG(F9)        &kp LG(F10)    &kp LG(F11)      &trans  &trans  &trans  &trans  &trans  &trans
                        &mt LC(D) TAB     &trans            &kp LC(PG_UP)  &kp LC(PG_DN)    &trans  &trans  &trans  &trans
