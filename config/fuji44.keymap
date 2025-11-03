@@ -58,7 +58,7 @@
 &kp F21  &kp PLUS   &mt LG(KP_NUMBER_7) NUMBER_7  &mt LG(KP_NUMBER_8) NUMBER_8  &mt LG(KP_NUMBER_9) NUMBER_9  &mt UNDERSCORE MINUS    &trans  &trans  &trans  &trans  &trans  &trans
 &kp F23  &kp EQUAL  &mt LG(KP_NUMBER_4) NUMBER_4  &mt LG(KP_NUMBER_5) NUMBER_5  &mt LG(KP_NUMBER_6) NUMBER_6  &kp F19                 &trans  &trans  &trans  &trans  &trans  &trans
 &kp F22  &kp F24    &mt LG(KP_NUMBER_1) NUMBER_1  &mt LG(KP_NUMBER_2) NUMBER_2  &mt LG(KP_NUMBER_3) NUMBER_3  &kp F20                 &trans  &trans  &trans  &trans  &trans  &trans
-                    &mt F17 NUMBER_0              &kp F18                       &trans                        &trans                  &trans  &trans  &trans  &trans
+                    &mt F17 NUMBER_0              &kp F18                       &mt END HOME                  &trans                  &trans  &trans  &trans  &trans
             >;
         };
 
